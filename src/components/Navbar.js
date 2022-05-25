@@ -43,7 +43,7 @@ function Navbar() {
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
-            {show ? ( <FaTimes sixe={20} style={{color: "#fff"}}/>) : (<FaBars sixe={20} style={{color: "#fff"}}/>)}
+            {show ? ( <h4><FaTimes sixe={20} style={{color: "#fff"}}/></h4>) : (<h4><FaBars sixe={20} style={{color: "#fff"}}/></h4>)}
         </div>
     </div>
   )

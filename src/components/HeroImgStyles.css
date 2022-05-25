@@ -51,12 +51,22 @@
     margin: 1rem 0.2rem;
 }
 
-@media screen and (max-width:  "640px"){
-    .hero .content h1{
-        font-size: 3rem;
+@media screen and (max-width:  1040px){
+    .hero .content > h1{
+        font-size: 6rem;
     }
     
     .hero .content p{
-        font-size: 1.4rem;
+        font-size: 2.4rem;
     }
+
+    .content .btn{
+       font-size: 2.3rem;
+       margin: 1rem 2rem;
+    }
+
+    .content > div{
+        margin-top: 2rem;
+    }
+
 }
