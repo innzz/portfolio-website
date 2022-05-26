@@ -70,3 +70,24 @@
     }
 
 }
+
+
+@media screen and (max-width:  760px){
+    .hero .content > h1{
+        font-size: 2.3rem;
+    }
+    
+    .hero .content p{
+        font-size: 1rem;
+    }
+
+    .content .btn{
+       font-size: 1rem;
+       margin: 0 1rem;
+    }
+
+    .content > div{
+        margin-top: 1rem;
+    }
+
+}

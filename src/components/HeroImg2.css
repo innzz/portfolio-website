@@ -46,3 +46,15 @@
         font-size: 2.4rem;
     }
 }
+
+
+@media screen and (max-width: 760px) {
+    .hero-img h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .hero-img p{
+        font-size: 1.2rem;
+    }
+}

@@ -5,19 +5,19 @@ const projectCardData = [
         imgsrc: project1,
         title:"Ecommerce Website",
         text:"Lorem ipsum dolor sit amet.",
-        view:"https://clone-228d2.web.app/"
+        view:"/clone-228d2.web.app/"
     },
     {
         imgsrc: project1,
         title:"Ecommerce Website",
         text:"Lorem ipsum dolor sit amet.",
-        view:"https://clone-228d2.web.app/"
+        view:"/clone-228d2.web.app/"
     },
     {
         imgsrc: project1,
         title:"Ecommerce Website",
         text:"Lorem ipsum dolor sit amet.",
-        view:"https://clone-228d2.web.app/"
+        view:"/clone-228d2.web.app/"
     }
 ]
 

@@ -77,3 +77,27 @@ p{
         margin: 0 1rem;
     }
 }
+
+
+@media screen and (max-width: 760px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+
+    h4{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .social{
+        margin-top: 2rem;
+    }
+
+    .social > h4{
+        font-size: 2rem;
+        margin: 0 1rem;
+    }
+}

@@ -50,4 +50,21 @@
         margin: auto;
         grid-template-columns: 1fr;
     }
+
+    .project-details .project-btn > a{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .project-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .project-details .project-btn > a{
+        font-size: 1rem;
+    }
 }

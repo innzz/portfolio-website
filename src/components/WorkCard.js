@@ -1,6 +1,5 @@
 import './WorkCard.css';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 function WorkCard({imgsrc,title,text,view}) {
   return (
@@ -10,12 +9,12 @@ function WorkCard({imgsrc,title,text,view}) {
     <div className="project-details">
         <p>{text}</p>
         <div className="project-btn">
-            <NavLink to={view} className="btn">
+            <a href={`${view}`} target="_blank" rel="noreferrer" className="btn">
                 View
-            </NavLink>
-            <NavLink to="url.com" className="btn">
+            </a>
+            <a href={`${view}`} target="_blank" rel="noreferrer" className="btn">
                 Source
-            </NavLink>
+            </a>
         </div>
     </div>
 </div>
